@@ -28,7 +28,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         Horizontal = Input.GetAxis("Horizontal");
-        Vertical = Input.GetAxis("Verical");
+        Vertical = Input.GetAxis("Vertical");
         
     }
 
