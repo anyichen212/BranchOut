@@ -27,8 +27,8 @@ public class Movement : MonoBehaviour
     void Update()
     {
         movement = Input.GetAxis("Horizontal");
-        //if (Input.GetButtonDown("Jump"))
-        //    jumpPressed = true;
+        if (Input.GetButtonDown("Jump"))
+            jumpPressed = true;
     }
 
     //called potentially many times per frame
@@ -38,10 +38,10 @@ public class Movement : MonoBehaviour
         rigid.velocity = new Vector2(SPEED * movement, rigid.velocity.y);
         if (movement < 0 && isFacingRight || movement > 0 && !isFacingRight)
             Flip();
-        //if (jumpPressed && isGrounded)
-        //    Jump();
-        //else
-        //    jumpPressed = false;
+        if (jumpPressed && isGrounded)
+            Jump();
+        else
+            jumpPressed = false;
 
         anim.SetBool("Walking", movement != 0);
         
@@ -65,9 +65,9 @@ public class Movement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //Debug.Log(collision.gameObject.tag);
-        //if (collision.gameObject.tag == "Ground")
-        //    isGrounded = true;
-       // else
-         //   Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.tag == "Ground")
+            isGrounded = true;
+        else
+            Debug.Log(collision.gameObject.tag);
     }
 }
