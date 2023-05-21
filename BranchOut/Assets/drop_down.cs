@@ -15,13 +15,7 @@ public class drop_down : MonoBehaviour
                 Debug.Log("Please choose a level.");
                 break;
             case 1:
-                SceneManager.LoadScene("Level1");
-                break;
-            case 2:
-                SceneManager.LoadScene("Level2");
-                break;
-            case 3:
-                SceneManager.LoadScene("Level3");
+                SceneManager.LoadScene("scene1");
                 break;
             default:
                 Debug.Log("Invalid level index.");

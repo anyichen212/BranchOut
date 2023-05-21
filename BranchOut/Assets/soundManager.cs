@@ -6,11 +6,11 @@ using UnityEngine.Audio;
 
 public class soundManager : MonoBehaviour
 {
-    public float volume;
-    public AudioMixer mixer;
+ public float Volume;
+public AudioMixer mixer;
 
-    public void SetVolume(float volume)
+    public void SetVolume(float Volume)
     {
-        mixer.SetFloat("Volume", volume);
+        mixer.SetFloat("Volume", Volume);
     }
 }
