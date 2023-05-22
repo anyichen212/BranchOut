@@ -10,6 +10,11 @@ public class level1left : MonoBehaviour
     [SerializeField] GameObject left;
     [SerializeField] GameObject main;
 
+    [SerializeField] GameObject rightCanvas1;
+    [SerializeField] GameObject rightCanvas2;
+    [SerializeField] GameObject leftCanvas1;
+    [SerializeField] GameObject leftCanvas2;
+
     [SerializeField] GameObject Button1;
     [SerializeField] GameObject Button2;
     int bigger = 0;
@@ -31,10 +36,14 @@ public class level1left : MonoBehaviour
     void Update()
     {
         if(drop == 2){
+            Destroy(rightCanvas1);
+            Destroy(rightCanvas2);
             right.transform.Translate(0 , -2*Time.deltaTime,0);
         }
 
         if(drop == 1){
+            Destroy(leftCanvas1);
+            Destroy(leftCanvas2);
             left.transform.Translate(0 , -2*Time.deltaTime,0);
         }
         
