@@ -15,11 +15,6 @@ public class DoNotDistroy : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    private void Update() {
-        if(SceneManager.GetActiveScene().buildIndex == 0)
-        Destroy(this.gameObject);
-    }
-
     public void setScore(string s){
         score = s;
         Debug.Log(score);
