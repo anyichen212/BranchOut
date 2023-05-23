@@ -1537,7 +1537,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: pick a level
       m_Image: {fileID: 0}
-    - m_Text: scene1
+    - m_Text: Easy
+      m_Image: {fileID: 0}
+    - m_Text: Hard
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
