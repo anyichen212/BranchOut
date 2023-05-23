@@ -1786,10 +1786,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   right: {fileID: 389121989}
   left: {fileID: 1407359875}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
+  rightCanvas1: {fileID: 1113667249}
+  rightCanvas2: {fileID: 1964410089}
+  leftCanvas1: {fileID: 1025667128}
+  leftCanvas2: {fileID: 838491485}
   main: {fileID: 1196688236}
   Button4: {fileID: 985923429}
   Button3: {fileID: 856874928}
@@ -8493,10 +8493,10 @@ MonoBehaviour:
   right: {fileID: 2065754762}
   left: {fileID: 408116328}
   main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
+  rightCanvas1: {fileID: 912148779}
+  rightCanvas2: {fileID: 375263600}
+  leftCanvas1: {fileID: 429027391}
+  leftCanvas2: {fileID: 1183698153}
   Button1: {fileID: 1833191841}
   Button2: {fileID: 54876349}
 --- !u!1 &1826844274
