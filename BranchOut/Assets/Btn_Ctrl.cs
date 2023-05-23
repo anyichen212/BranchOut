@@ -79,6 +79,8 @@ public class Btn_Ctrl : MonoBehaviour
     TextMeshProUGUI[] S2G6;
     TextMeshProUGUI[] S2G7;
     TextMeshProUGUI[] S2G8;
+
+    int score;
     
     //TextMeshProUGUI[] S1G1;
     private static System.Random rnd = new System.Random();
@@ -253,10 +255,14 @@ public class Btn_Ctrl : MonoBehaviour
         }
 
         string str = compare2(s11,s12);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L1M();
-        else
+            PlayerPrefs.SetString("Score_2", s11.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R1M();
+            PlayerPrefs.SetString("Score_2", s12.text);
+            SceneManager.LoadScene("level_2_score");}
     }
 
     public void L3R1M(){
@@ -269,10 +275,14 @@ public class Btn_Ctrl : MonoBehaviour
             obj.SetActive(false);
         }
         string str = compare2(s21,s22);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L2M();
-        else
+            PlayerPrefs.SetString("Score_2", s21.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R2M();
+            PlayerPrefs.SetString("Score_2", s22.text);
+            SceneManager.LoadScene("level_2_score");}
     }
 
     public void L3L2M(){
@@ -285,10 +295,14 @@ public class Btn_Ctrl : MonoBehaviour
             obj.SetActive(false);
         }
         string str = compare2(s31,s32);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L3M();
-        else
+            PlayerPrefs.SetString("Score_2", s31.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R3M();
+            PlayerPrefs.SetString("Score_2", s32.text);
+            SceneManager.LoadScene("level_2_score");}
     }
 
     public void L3R2M(){
@@ -301,11 +315,15 @@ public class Btn_Ctrl : MonoBehaviour
             obj.SetActive(false);
         }
         string str = compare2(s41,s42);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L4M();
-        else
+            PlayerPrefs.SetString("Score_2", s41.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R4M();
-    }
+            PlayerPrefs.SetString("Score_2", s42.text);
+            SceneManager.LoadScene("level_2_score");}
+            }
 
     public void L3L3M(){
         chr.transform.position = new Vector3(1.1f, 1f, 0);
@@ -317,10 +335,14 @@ public class Btn_Ctrl : MonoBehaviour
             obj.SetActive(false);
         }
         string str = compare2(s51,s52);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L5M();
-        else
+            PlayerPrefs.SetString("Score_2", s51.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R5M();
+            PlayerPrefs.SetString("Score_2", s52.text);
+            SceneManager.LoadScene("level_2_score");}
     }
 
     public void L3R3M(){
@@ -333,10 +355,14 @@ public class Btn_Ctrl : MonoBehaviour
             obj.SetActive(false);
         }
         string str = compare2(s61,s62);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L6M();
-        else
+            PlayerPrefs.SetString("Score_2", s61.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R6M();
+            PlayerPrefs.SetString("Score_2", s62.text);
+            SceneManager.LoadScene("level_2_score");}
     }
 
     public void L3L4M(){
@@ -349,10 +375,14 @@ public class Btn_Ctrl : MonoBehaviour
             obj.SetActive(false);
         }
         string str = compare2(s71,s72);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L7M();
-        else
+            PlayerPrefs.SetString("Score_2", s71.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R7M();
+            PlayerPrefs.SetString("Score_2", s72.text);
+            SceneManager.LoadScene("level_2_score");}
     }
 
     public void L3R4M(){
@@ -365,10 +395,14 @@ public class Btn_Ctrl : MonoBehaviour
             obj.SetActive(false);
         }
         string str = compare2(s81,s82);
-        if (str=="goleft")
+        if (str=="goleft"){
             L4L8M();
-        else
+            PlayerPrefs.SetString("Score_2", s81.text);
+            SceneManager.LoadScene("level_2_score");}
+        else{
             L4R8M();
+            PlayerPrefs.SetString("Score_2", s82.text);
+            SceneManager.LoadScene("level_2_score");}
     }
 
     public void L4L1M(){
