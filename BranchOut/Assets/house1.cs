@@ -16,7 +16,7 @@ public class house1 : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             score.GetComponent<DoNotDistroy>().setScore(text.GetComponent<Text>().text);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
     }
