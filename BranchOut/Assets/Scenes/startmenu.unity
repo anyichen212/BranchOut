@@ -270,8 +270,8 @@ RectTransform:
   m_Father: {fileID: 1328967699}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.9876543, y: 0}
-  m_AnchorMax: {x: 0.9876543, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -619,7 +619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &588324382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -751,14 +751,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WELCOME! The point of the game is to get down to a house with the highest
-    number written on it. You travel down in a similar way to how binary trees are
-    traversed in programming, meaning at every stop you have a choice to either go
-    left or roght. You can do that by pressing the arrow pointing to the next platform.
-    The game will look ahead and eliminate the platform with the highest number on
-    the path that you chose, so be careful and strategize to get the highest score!
-
-'
+  m_text: "Welcome to BranchOut:\n1. The point of the game is to get down to a house
+    with the highest number written on it.\n2. You travel down in a similar way to
+    how binary trees are traversed in programming, meaning at every stop you have
+    a choice to either go left or right. You can do that by pressing the arrow pointing
+    to the next platform. \n3.The game will look ahead and eliminate the platform
+    with the highest number on the path that you chose be careful and strategize
+    to get the highest score!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -785,7 +784,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.75
+  m_fontSize: 21.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1991,7 +1990,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.9876543, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
