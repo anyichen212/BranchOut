@@ -238,7 +238,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -99921615
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &514694853
@@ -667,7 +667,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &1276817728
 CanvasRenderer:
   m_ObjectHideFlags: 0
