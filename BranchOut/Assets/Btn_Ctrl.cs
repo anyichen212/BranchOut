@@ -51,6 +51,7 @@ public class Btn_Ctrl : MonoBehaviour
     [SerializeField] TextMeshProUGUI s72;
     [SerializeField] TextMeshProUGUI s81;
     [SerializeField] TextMeshProUGUI s82;
+    
     TextMeshProUGUI[] scarr;
     GameObject[] GL1;
     GameObject[] GR1;
@@ -171,6 +172,8 @@ public class Btn_Ctrl : MonoBehaviour
     public void L1LM(){
         chr.transform.position = new Vector3(-5f, 3.7f, 0);
         L1L.SetActive(false);
+        L2L1.SetActive(true);
+        L2R1.SetActive(true);
         foreach (GameObject obj in GR1){
             obj.SetActive(false);
         }
@@ -185,6 +188,8 @@ public class Btn_Ctrl : MonoBehaviour
     public void L1RM(){
         chr.transform.position = new Vector3(5f, 3.7f, 0);
         L1R.SetActive(false);
+        L2L2.SetActive(true);
+        L2R2.SetActive(true);
         foreach (GameObject obj in GL1){
             obj.SetActive(false);
         }
@@ -199,6 +204,8 @@ public class Btn_Ctrl : MonoBehaviour
     public void L2L1M(){
         chr.transform.position = new Vector3(-7.3f, 2.3f, 0);
         L2L1.SetActive(false);
+        L3L1.SetActive(true);
+        L3R1.SetActive(true);
         foreach (GameObject obj in G2LR){
             obj.SetActive(false);
         }
@@ -207,6 +214,8 @@ public class Btn_Ctrl : MonoBehaviour
     public void L2R1M(){
         chr.transform.position = new Vector3(-2.6f, 2.3f, 0);
         L2R1.SetActive(false);
+        L3L2.SetActive(true);
+        L3R2.SetActive(true);
         foreach (GameObject obj in G2LL){
             obj.SetActive(false);
         }
@@ -216,6 +225,8 @@ public class Btn_Ctrl : MonoBehaviour
     public void L2L2M(){
         chr.transform.position = new Vector3(2.4f, 2.3f, 0);
         L2L2.SetActive(false);
+        L3L3.SetActive(true);
+        L3R3.SetActive(true);
         foreach (GameObject obj in G2RR){
             obj.SetActive(false);
         }
@@ -224,6 +235,8 @@ public class Btn_Ctrl : MonoBehaviour
     public void L2R2M(){
         chr.transform.position = new Vector3(7.3f, 2.3f, 0);
         L2R2.SetActive(false);
+        L3L4.SetActive(true);
+        L3R4.SetActive(true);
         foreach (GameObject obj in G2RL){
             obj.SetActive(false);
         }
@@ -233,6 +246,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(-8.8f, 1f, 0);
         L3L1.SetActive(false);
         L3R1.SetActive(false);
+        L4L1.SetActive(true);
+        L4R1.SetActive(true);
         foreach (GameObject obj in G32){
             obj.SetActive(false);
         }
@@ -248,6 +263,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(-6.3f, 1f, 0);
         L3R1.SetActive(false);
         L3L1.SetActive(false);
+        L4L2.SetActive(true);
+        L4R2.SetActive(true);
         foreach (GameObject obj in G31){
             obj.SetActive(false);
         }
@@ -262,6 +279,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(-3.8f, 1f, 0);
         L3L2.SetActive(false);
         L3R2.SetActive(false);
+        L4L3.SetActive(true);
+        L4R3.SetActive(true);
         foreach (GameObject obj in G34){
             obj.SetActive(false);
         }
@@ -276,6 +295,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(-1.1f, 1f, 0);
         L3R2.SetActive(false);
         L3L2.SetActive(false);
+        L4L4.SetActive(true);
+        L4R4.SetActive(true);
         foreach (GameObject obj in G33){
             obj.SetActive(false);
         }
@@ -290,6 +311,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(1.1f, 1f, 0);
         L3L3.SetActive(false);
         L3R3.SetActive(false);
+        L4L5.SetActive(true);
+        L4R5.SetActive(true);
         foreach (GameObject obj in G36){
             obj.SetActive(false);
         }
@@ -304,6 +327,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(3.5f, 1f, 0);
         L3R3.SetActive(false);
         L3L3.SetActive(false);
+        L4L6.SetActive(true);
+        L4R6.SetActive(true);
         foreach (GameObject obj in G35){
             obj.SetActive(false);
         }
@@ -318,6 +343,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(6.15f, 1f, 0);
         L3L4.SetActive(false);
         L3R4.SetActive(false);
+        L4L7.SetActive(true);
+        L4R7.SetActive(true);
         foreach (GameObject obj in G38){
             obj.SetActive(false);
         }
@@ -332,6 +359,8 @@ public class Btn_Ctrl : MonoBehaviour
         chr.transform.position = new Vector3(8.5f, 1f, 0);
         L3R4.SetActive(false);
         L3L4.SetActive(false);
+        L4L8.SetActive(true);
+        L4R8.SetActive(true);
         foreach (GameObject obj in G37){
             obj.SetActive(false);
         }
@@ -344,6 +373,7 @@ public class Btn_Ctrl : MonoBehaviour
 
     public void L4L1M(){
         chr.transform.position = new Vector3(-8.8f, -1.2f, 0);
+        
     }
 
     public void L4L2M(){
