@@ -51,6 +51,7 @@ public class Btn_Ctrl : MonoBehaviour
     [SerializeField] TextMeshProUGUI s72;
     [SerializeField] TextMeshProUGUI s81;
     [SerializeField] TextMeshProUGUI s82;
+    TextMeshProUGUI[] scarr;
     GameObject[] GL1;
     GameObject[] GR1;
     GameObject[] G2LL;
@@ -65,6 +66,21 @@ public class Btn_Ctrl : MonoBehaviour
     GameObject[] G36;
     GameObject[] G37;
     GameObject[] G38;
+    TextMeshProUGUI[] S1G1;
+    TextMeshProUGUI[] S1G2;
+    TextMeshProUGUI[] S1G3;
+    TextMeshProUGUI[] S1G4;
+    TextMeshProUGUI[] S2G1;
+    TextMeshProUGUI[] S2G2;
+    TextMeshProUGUI[] S2G3;
+    TextMeshProUGUI[] S2G4;
+    TextMeshProUGUI[] S2G5;
+    TextMeshProUGUI[] S2G6;
+    TextMeshProUGUI[] S2G7;
+    TextMeshProUGUI[] S2G8;
+    
+    //TextMeshProUGUI[] S1G1;
+    private static System.Random rnd = new System.Random();
 
     // Start is called before the first frame update
     void Start()
@@ -83,6 +99,26 @@ public class Btn_Ctrl : MonoBehaviour
         G36 = new GameObject[]{L4L6,L4R6};
         G37 = new GameObject[]{L4L7,L4R7};
         G38 = new GameObject[]{L4L8,L4R8};
+
+        scarr = new TextMeshProUGUI[]{s11, s12, s21, s22, s31, s32, s41, s42, s51, s52, s61, s62, s71, s72, s81, s82};
+        S1G1 = new TextMeshProUGUI[]{s11,s12,s21,s22};
+        S1G2 = new TextMeshProUGUI[]{s31,s32,s41,s42};
+        S1G3 = new TextMeshProUGUI[]{s51,s52,s61,s62};
+        S1G4 = new TextMeshProUGUI[]{s71,s72,s81,s82};
+        S2G1 = new TextMeshProUGUI[]{s11,s12};
+        S2G2 = new TextMeshProUGUI[]{s21,s22};
+        S2G3 = new TextMeshProUGUI[]{s31,s32};
+        S2G4 = new TextMeshProUGUI[]{s41,s42};
+        S2G5 = new TextMeshProUGUI[]{s51,s52};
+        S2G6 = new TextMeshProUGUI[]{s61,s62};
+        S2G7 = new TextMeshProUGUI[]{s71,s72};
+        S2G8 = new TextMeshProUGUI[]{s81,s82};
+
+        
+        foreach (TextMeshProUGUI txt in scarr){
+           string num = rnd.Next(1,31).ToString();
+            txt.text = num;
+        }
         
     }
 
@@ -92,12 +128,58 @@ public class Btn_Ctrl : MonoBehaviour
         
     }
 
+    public string compare (TextMeshProUGUI[] arr1, TextMeshProUGUI[]arr2){
+
+    int max1 = int.MinValue;
+
+    foreach (TextMeshProUGUI tmp in arr1)
+    {
+        int value = int.Parse(tmp.text);
+        if (value > max1)
+        {
+            max1 = value;
+        }
+    }
+
+    int max2 = int.MinValue;
+
+    foreach (TextMeshProUGUI tmp in arr2)
+    {
+        int value = int.Parse(tmp.text);
+        if (value > max2)
+        {
+            max2 = value;
+        }
+    }
+
+    if (max1>max2)
+    return "goright";
+    else 
+    return "goleft";
+    }
+
+    public string compare2 (TextMeshProUGUI txt1, TextMeshProUGUI txt2){
+        int num1 = int.Parse(txt1.text);
+        int num2 = int.Parse(txt2.text);
+
+        if (num1>num2)
+        return "goright";
+        else
+        return "goleft";
+    }
+
     public void L1LM(){
         chr.transform.position = new Vector3(-5f, 3.7f, 0);
         L1L.SetActive(false);
         foreach (GameObject obj in GR1){
             obj.SetActive(false);
         }
+
+        string str = compare(S1G1,S1G2);
+        if (str=="goleft")
+            L2L1M();
+        else
+            L2R1M();
     }
 
     public void L1RM(){
@@ -106,6 +188,12 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in GL1){
             obj.SetActive(false);
         }
+        
+        string str = compare(S1G3,S1G4);
+        if (str=="goleft")
+            L2L2M();
+        else
+            L2R2M();
     }
 
     public void L2L1M(){
@@ -148,6 +236,12 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G32){
             obj.SetActive(false);
         }
+
+        string str = compare2(s11,s12);
+        if (str=="goleft")
+            L4L1M();
+        else
+            L4R1M();
     }
 
     public void L3R1M(){
@@ -157,6 +251,11 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G31){
             obj.SetActive(false);
         }
+        string str = compare2(s21,s22);
+        if (str=="goleft")
+            L4L2M();
+        else
+            L4R2M();
     }
 
     public void L3L2M(){
@@ -166,6 +265,11 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G34){
             obj.SetActive(false);
         }
+        string str = compare2(s31,s32);
+        if (str=="goleft")
+            L4L3M();
+        else
+            L4R3M();
     }
 
     public void L3R2M(){
@@ -175,7 +279,13 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G33){
             obj.SetActive(false);
         }
+        string str = compare2(s41,s42);
+        if (str=="goleft")
+            L4L4M();
+        else
+            L4R4M();
     }
+
     public void L3L3M(){
         chr.transform.position = new Vector3(1.1f, 1f, 0);
         L3L3.SetActive(false);
@@ -183,6 +293,11 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G36){
             obj.SetActive(false);
         }
+        string str = compare2(s51,s52);
+        if (str=="goleft")
+            L4L5M();
+        else
+            L4R5M();
     }
 
     public void L3R3M(){
@@ -192,6 +307,11 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G35){
             obj.SetActive(false);
         }
+        string str = compare2(s61,s62);
+        if (str=="goleft")
+            L4L6M();
+        else
+            L4R6M();
     }
 
     public void L3L4M(){
@@ -201,6 +321,11 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G38){
             obj.SetActive(false);
         }
+        string str = compare2(s71,s72);
+        if (str=="goleft")
+            L4L7M();
+        else
+            L4R7M();
     }
 
     public void L3R4M(){
@@ -210,6 +335,11 @@ public class Btn_Ctrl : MonoBehaviour
         foreach (GameObject obj in G37){
             obj.SetActive(false);
         }
+        string str = compare2(s81,s82);
+        if (str=="goleft")
+            L4L8M();
+        else
+            L4R8M();
     }
 
     public void L4L1M(){
