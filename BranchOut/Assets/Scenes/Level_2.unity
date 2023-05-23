@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 12292683}
   - component: {fileID: 12292682}
   - component: {fileID: 12292681}
-  - component: {fileID: 12292680}
   m_Layer: 0
   m_Name: l3r2
   m_TagString: Untagged
@@ -158,27 +157,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &12292680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12292678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &12292681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -727,7 +705,6 @@ GameObject:
   - component: {fileID: 155626055}
   - component: {fileID: 155626054}
   - component: {fileID: 155626053}
-  - component: {fileID: 155626052}
   m_Layer: 0
   m_Name: l2r1
   m_TagString: Untagged
@@ -750,27 +727,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &155626052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 155626050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &155626053
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -966,7 +922,6 @@ GameObject:
   - component: {fileID: 205098801}
   - component: {fileID: 205098800}
   - component: {fileID: 205098799}
-  - component: {fileID: 205098798}
   m_Layer: 0
   m_Name: l3l1
   m_TagString: Untagged
@@ -989,27 +944,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &205098798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205098796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &205098799
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1566,7 +1500,6 @@ GameObject:
   - component: {fileID: 243496334}
   - component: {fileID: 243496333}
   - component: {fileID: 243496332}
-  - component: {fileID: 243496331}
   m_Layer: 0
   m_Name: l3l2
   m_TagString: Untagged
@@ -1589,27 +1522,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &243496331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243496329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &243496332
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2164,7 +2076,6 @@ GameObject:
   - component: {fileID: 308700346}
   - component: {fileID: 308700345}
   - component: {fileID: 308700344}
-  - component: {fileID: 308700343}
   m_Layer: 0
   m_Name: L4L7
   m_TagString: Untagged
@@ -2187,27 +2098,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &308700343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308700341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &308700344
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2319,7 +2209,6 @@ GameObject:
   - component: {fileID: 313852066}
   - component: {fileID: 313852065}
   - component: {fileID: 313852064}
-  - component: {fileID: 313852063}
   m_Layer: 0
   m_Name: L4L3
   m_TagString: Untagged
@@ -2342,27 +2231,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &313852063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313852061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &313852064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2474,7 +2342,6 @@ GameObject:
   - component: {fileID: 320941303}
   - component: {fileID: 320941302}
   - component: {fileID: 320941301}
-  - component: {fileID: 320941300}
   m_Layer: 0
   m_Name: L4R8
   m_TagString: Untagged
@@ -2497,27 +2364,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &320941300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320941298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &320941301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2846,7 +2692,6 @@ GameObject:
   - component: {fileID: 346966212}
   - component: {fileID: 346966211}
   - component: {fileID: 346966210}
-  - component: {fileID: 346966209}
   m_Layer: 0
   m_Name: L4R6
   m_TagString: Untagged
@@ -2869,27 +2714,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &346966209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 346966207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &346966210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3218,7 +3042,6 @@ GameObject:
   - component: {fileID: 360917336}
   - component: {fileID: 360917338}
   - component: {fileID: 360917339}
-  - component: {fileID: 360917340}
   m_Layer: 0
   m_Name: l1r
   m_TagString: Untagged
@@ -3340,27 +3163,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48, y: 0.1}
   m_EdgeRadius: 0
---- !u!114 &360917340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360917335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b8306093d3dd64b8fe2cbd96a2ee92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  main: {fileID: 1196688236}
-  Button4: {fileID: 0}
-  Button3: {fileID: 0}
 --- !u!1 &389043560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3643,7 +3445,6 @@ GameObject:
   - component: {fileID: 501329159}
   - component: {fileID: 501329158}
   - component: {fileID: 501329157}
-  - component: {fileID: 501329156}
   m_Layer: 0
   m_Name: L4R1
   m_TagString: Untagged
@@ -3666,27 +3467,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &501329156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 501329154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &501329157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3798,7 +3578,6 @@ GameObject:
   - component: {fileID: 569595828}
   - component: {fileID: 569595827}
   - component: {fileID: 569595826}
-  - component: {fileID: 569595825}
   m_Layer: 0
   m_Name: L4L5
   m_TagString: Untagged
@@ -3821,27 +3600,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &569595825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569595823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &569595826
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3953,7 +3711,6 @@ GameObject:
   - component: {fileID: 587638395}
   - component: {fileID: 587638394}
   - component: {fileID: 587638393}
-  - component: {fileID: 587638392}
   m_Layer: 0
   m_Name: L4R7
   m_TagString: Untagged
@@ -3976,27 +3733,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &587638392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587638390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &587638393
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4325,7 +4061,6 @@ GameObject:
   - component: {fileID: 641803204}
   - component: {fileID: 641803203}
   - component: {fileID: 641803202}
-  - component: {fileID: 641803201}
   m_Layer: 0
   m_Name: L4R3
   m_TagString: Untagged
@@ -4348,27 +4083,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &641803201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641803199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &641803202
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4480,7 +4194,6 @@ GameObject:
   - component: {fileID: 677340590}
   - component: {fileID: 677340589}
   - component: {fileID: 677340588}
-  - component: {fileID: 677340587}
   m_Layer: 0
   m_Name: l3r3
   m_TagString: Untagged
@@ -4503,27 +4216,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &677340587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677340585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &677340588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4768,7 +4460,6 @@ GameObject:
   - component: {fileID: 708766159}
   - component: {fileID: 708766158}
   - component: {fileID: 708766157}
-  - component: {fileID: 708766156}
   m_Layer: 0
   m_Name: L4R5
   m_TagString: Untagged
@@ -4791,27 +4482,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &708766156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708766154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &708766157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6345,7 +6015,6 @@ GameObject:
   - component: {fileID: 820123336}
   - component: {fileID: 820123335}
   - component: {fileID: 820123334}
-  - component: {fileID: 820123333}
   m_Layer: 0
   m_Name: L4R4
   m_TagString: Untagged
@@ -6368,27 +6037,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &820123333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820123331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &820123334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6633,7 +6281,6 @@ GameObject:
   - component: {fileID: 829056322}
   - component: {fileID: 829056321}
   - component: {fileID: 829056320}
-  - component: {fileID: 829056319}
   m_Layer: 0
   m_Name: L4L6
   m_TagString: Untagged
@@ -6656,27 +6303,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &829056319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829056317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &829056320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6788,7 +6414,6 @@ GameObject:
   - component: {fileID: 861374867}
   - component: {fileID: 861374866}
   - component: {fileID: 861374865}
-  - component: {fileID: 861374864}
   m_Layer: 0
   m_Name: L4L4
   m_TagString: Untagged
@@ -6811,27 +6436,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &861374864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861374862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &861374865
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8052,7 +7656,6 @@ GameObject:
   - component: {fileID: 1024849016}
   - component: {fileID: 1024849015}
   - component: {fileID: 1024849014}
-  - component: {fileID: 1024849013}
   m_Layer: 0
   m_Name: L4L8
   m_TagString: Untagged
@@ -8075,27 +7678,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1024849013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024849011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1024849014
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8557,7 +8139,6 @@ GameObject:
   - component: {fileID: 1078754429}
   - component: {fileID: 1078754428}
   - component: {fileID: 1078754427}
-  - component: {fileID: 1078754426}
   m_Layer: 0
   m_Name: L4R2
   m_TagString: Untagged
@@ -8580,27 +8161,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1078754426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078754424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1078754427
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9153,7 +8713,6 @@ GameObject:
   - component: {fileID: 1156925687}
   - component: {fileID: 1156925686}
   - component: {fileID: 1156925685}
-  - component: {fileID: 1156925684}
   m_Layer: 0
   m_Name: l3r4
   m_TagString: Untagged
@@ -9176,27 +8735,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1156925684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156925682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1156925685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9308,7 +8846,6 @@ GameObject:
   - component: {fileID: 1173757431}
   - component: {fileID: 1173757430}
   - component: {fileID: 1173757429}
-  - component: {fileID: 1173757428}
   m_Layer: 0
   m_Name: l2l2
   m_TagString: Untagged
@@ -9331,27 +8868,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1173757428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173757426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1173757429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9593,7 +9109,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1196688237}
-  - component: {fileID: 1196688238}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -9648,38 +9163,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1196688238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1196688236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abcc506cb5254e14d871be6b42dd7317, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  num: 
-  tiles:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  numOfTiles: 8
-  text:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &1236819981
 GameObject:
   m_ObjectHideFlags: 0
@@ -9825,7 +9308,6 @@ GameObject:
   - component: {fileID: 1237714094}
   - component: {fileID: 1237714093}
   - component: {fileID: 1237714092}
-  - component: {fileID: 1237714091}
   m_Layer: 0
   m_Name: l2l1
   m_TagString: Untagged
@@ -9848,27 +9330,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1237714091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237714089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1237714092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10113,7 +9574,6 @@ GameObject:
   - component: {fileID: 1264690158}
   - component: {fileID: 1264690157}
   - component: {fileID: 1264690156}
-  - component: {fileID: 1264690155}
   m_Layer: 0
   m_Name: L4L1
   m_TagString: Untagged
@@ -10136,27 +9596,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1264690155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264690153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1264690156
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10835,7 +10274,6 @@ GameObject:
   - component: {fileID: 1347159380}
   - component: {fileID: 1347159379}
   - component: {fileID: 1347159378}
-  - component: {fileID: 1347159377}
   m_Layer: 0
   m_Name: l2r2
   m_TagString: Untagged
@@ -10858,27 +10296,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1347159377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347159375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1347159378
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12230,7 +11647,6 @@ GameObject:
   - component: {fileID: 1570913250}
   - component: {fileID: 1570913249}
   - component: {fileID: 1570913248}
-  - component: {fileID: 1570913247}
   m_Layer: 0
   m_Name: l3r1
   m_TagString: Untagged
@@ -12253,27 +11669,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1570913247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570913245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1570913248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12860,7 +12255,6 @@ GameObject:
   - component: {fileID: 1762387416}
   - component: {fileID: 1762387418}
   - component: {fileID: 1762387419}
-  - component: {fileID: 1762387420}
   m_Layer: 0
   m_Name: l1l
   m_TagString: Untagged
@@ -12982,27 +12376,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48, y: 0.1}
   m_EdgeRadius: 0
---- !u!114 &1762387420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762387415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!1 &1852302752
 GameObject:
   m_ObjectHideFlags: 0
@@ -13015,7 +12388,6 @@ GameObject:
   - component: {fileID: 1852302757}
   - component: {fileID: 1852302756}
   - component: {fileID: 1852302755}
-  - component: {fileID: 1852302754}
   m_Layer: 0
   m_Name: l3l3
   m_TagString: Untagged
@@ -13038,27 +12410,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1852302754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852302752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1852302755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13254,7 +12605,6 @@ GameObject:
   - component: {fileID: 1888803968}
   - component: {fileID: 1888803967}
   - component: {fileID: 1888803966}
-  - component: {fileID: 1888803965}
   m_Layer: 0
   m_Name: L4L2
   m_TagString: Untagged
@@ -13277,27 +12627,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1888803965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888803963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &1888803966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13941,7 +13270,6 @@ GameObject:
   - component: {fileID: 2122189086}
   - component: {fileID: 2122189085}
   - component: {fileID: 2122189084}
-  - component: {fileID: 2122189083}
   m_Layer: 0
   m_Name: l3l4
   m_TagString: Untagged
@@ -13964,27 +13292,6 @@ Transform:
   m_Father: {fileID: 1196688237}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2122189083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122189081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca7dda61839b134ca3aac5216bb7d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  right: {fileID: 0}
-  left: {fileID: 0}
-  main: {fileID: 1196688236}
-  rightCanvas1: {fileID: 0}
-  rightCanvas2: {fileID: 0}
-  leftCanvas1: {fileID: 0}
-  leftCanvas2: {fileID: 0}
-  Button1: {fileID: 0}
-  Button2: {fileID: 0}
 --- !u!61 &2122189084
 BoxCollider2D:
   m_ObjectHideFlags: 0
